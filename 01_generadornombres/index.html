@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- Estilos de la pagina -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+	</head>
+	<body>
+		<div class="container well">
+			<div class="row">
+				<div class="col-lg-12 text-center">
+					<h1>Generador de Nombres Aleatorios</h1>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-12">
+					<blockquote>
+						<p>Por favor ingresa el patron y la cantidad de nombres aleatorios a generar</p>
+					</blockquote>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-3 text-right">
+					<label>Patron Generador</label>
+				</div>
+				<div class="col-lg-3">
+					<input type="text" id="patron" placeholder="CVCVCVC" class="form-control"/>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-3 text-right">
+					<label>Cantidad Nombres</label>
+				</div>
+				<div class="col-lg-3">
+					<input type="text" id="cantidad" placeholder="10" class="form-control"/>
+				</div>
+			</div>
+			<div class="row" style="padding:10px">
+				<div class="col-lg-2  col-lg-offset-4 text-center">
+					<input type="button" value="Generar" id="generar" class="form-control btn-success"/>
+				</div>
+			</div>
+			<div id="resultado"></div>
+		</div>
+
+		<!-- Carga de scripts al final para hacer mas veloz la pagina -->
+		<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.js"></script>
+		<script type="text/javascript" src="js/nombre.js"></script>
+	</body>
+</html>
