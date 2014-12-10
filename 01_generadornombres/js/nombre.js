@@ -1,4 +1,5 @@
 var patron = null;
+var prueba = 0;
 var vocales = "AEIOU";
 var consonantes = "BCDFGHJKLMNPQRSTVWXYZ";
 var cantidad_nombres = 0;
