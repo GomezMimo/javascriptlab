@@ -1,6 +1,6 @@
 var patron = null;
 var vocales = "AEIOU";
-var consonantes = "BCDFGHJKLMNOPQRSTUVWXYZ";
+var consonantes = "BCDFGHJKLMNPQRSTVWXYZ";
 var cantidad_nombres = 0;
 
 $( document ).ready(function() {
